@@ -1,0 +1,11 @@
+addi r01,r02,h03
+addi r02,r03,h05
+push r01
+push r02
+bg r02,r01,l
+pop r05
+pop r06
+mull r08,r06,r05
+l: pop r12
+pop r13
+sub r14,r12,r13
